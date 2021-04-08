@@ -1,0 +1,26 @@
+.container{
+  position: relative;
+  height: 700px;
+  margin: 20px;
+  background-image: linear-gradient(90deg, #2444b8, #22b6ec);
+
+}
+
+.container .msg-alert{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 650px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #d2d8dfea;
+}
+
+.container .msg-alert h1{
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
